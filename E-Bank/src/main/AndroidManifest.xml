@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.project">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".present.CardView"></activity>
+        <activity android:name=".present.ThreeTextViews" />
+        <activity android:name=".present.ReceiveActivity" />
+        <activity android:name=".present.PayActivity" />
+        <activity android:name=".present.RecordActivity" />
+        <activity android:name=".present.CardPocketActivity" />
+        <activity android:name=".present.DepositActivity" />
+        <activity android:name=".present.ApplyCreditCardActivity" />
+        <activity android:name=".present.AffirmPurchaseActivity" />
+        <activity android:name=".present.PurchaseProductActivity" />
+        <activity android:name=".present.AffirmTransferActivity" />
+        <activity android:name=".present.TransferMoneyActivity" />
+        <activity android:name=".present.PersonalInformationActivity" />
+        <activity android:name=".present.RegisterActivity" />
+        <activity android:name=".present.FunctionSelectActivity" />
+        <activity android:name=".present.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
